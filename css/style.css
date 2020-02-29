@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+  height: 250px;
+  background-image: url(../img/sfondo2.jpg);
+}
+
+img {
+  display: inline-block;
+}
+
+#zard {
+  padding-left: 75px;
+}
