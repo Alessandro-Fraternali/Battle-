@@ -6,15 +6,159 @@
 
 .container {
   margin: auto;
-  width: 500px;
+  width: 439px;
   height: 250px;
   background-image: url(../img/sfondo2.jpg);
+}
+
+p {
+  text-align: center;
 }
 
 img {
   display: inline-block;
 }
 
+.statc {
+  height: 45px;
+  background-color: #ffffcc;
+  border: 3px solid gray;
+  border-style: ridge;
+}
+
+.statb {
+  height: 45px;
+  background-color: #ffffcc;
+  border: 3px solid gray;
+  border-style: ridge;
+  margin-top: 20px;
+}
+
+.stat p {
+  display: inline-block;
+}
+
 #zard {
-  padding-left: 75px;
+  padding-left: 90px;
+}
+
+.ps1 {
+  color: yellow;
+  height: 15px;
+  font-size: 12px;
+  background-color: green;
+  display: inline-block;
+  margin-left: 10px;
+  width: 120px;
+  border: 1px solid black;
+}
+
+.ps2 {
+  display: inline-block;
+  background-color: black;
+  border: 1px solid black;
+  height: 14px;
+}
+
+.cr {
+  color: white;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.cr p {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.menu {
+  margin-top: 7.5px;
+}
+
+.menu a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 3px 5px;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  border: 2px solid red;
+}
+
+.comandi {
+  border: 2px solid white;
+  border-style: groove;
+  margin-top: -13.5px;
+  height: 76.5px;
+  background-color: #000033;
+}
+
+.options {
+  height: 72px;
+  background-color: #ffffcc;
+  border: 2px solid gray;
+  border-style: ridge;
+}
+
+.mosse {
+  border: 2px solid gray;
+  border-style: groove;
+  background-color: red;
+  position: absolute;
+  left: 466px;
+  top: 176px;
+  height: 70px;
+  background-color: #ffffcc;
+  display: none;
+}
+
+.mosse a {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.fight:hover .mosse{
+  display: inline-block;
+}
+
+.items {
+  border: 2px solid gray;
+  border-style: groove;
+  background-color: red;
+  position: absolute;
+  left: 466px;
+  top: 176px;
+  height: 70px;
+  background-color: #ffffcc;
+  display: none;
+}
+
+.bag:hover .items {
+  display: inline-block;
+}
+
+.items p {
+  font-size: 14px;
+  line-height: 10px;
+  color: black;
+}
+
+.team {
+  border: 2px solid gray;
+  border-style: groove;
+  background-color: red;
+  position: absolute;
+  left: 466px;
+  top: 176px;
+  height: 70px;
+  background-color: #ffffcc;
+  line-height: 1px;
+  display: none;
+}
+
+.pkmn:hover .team {
+  display: inline-block;
 }
