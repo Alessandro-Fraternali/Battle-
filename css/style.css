@@ -162,3 +162,7 @@ img {
 .pkmn:hover .team {
   display: inline-block;
 }
+
+audio {
+  margin-top: 20px;
+}
