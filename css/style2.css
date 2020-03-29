@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.container {
+  margin: auto;
+  width: 439px;
+  height: 186px;
+  background-image: url(../img/sfondo3.jpg);
+}
+
+.statsprite {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.stat {
+  width: 150px;
+  height: 45px;
+  background-color: #ffffcc;
+  border: 3px solid gray;
+  border-style: ridge;
+  display: flex;
+  flex-direction: column;
+}
+
+.nsl {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1px;
+}
+
+.ps {
+  display: flex;
+  justify-content: center;
+}
+
+.iconaps {
+  color: yellow;
+  height: 15px;
+  width: 15px;
+  font-size: 12px;
+  border: 1px solid black;
+  background-color: black;
+  text-align: center;
+}
+
+.barraps {
+  height: 15px;
+  width: 110px;
+  border: 1px solid black;
+  background-color: #00e64d;
+}
+
+.statspriteblastoise{
+  padding-top: 16px;
+}
+
+.statblastoise {
+margin-top: 10px;
+}
+
+/* menù interattivo */
+/* cronaca lotta */
+.cronaca {
+  color: white;
+  margin: auto;
+  width: 439px;
+  height: 77px;
+  background-color: #000033;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* opzioni di gioco */
+.opzioni {
+  color: black;
+  height: 100%;
+  width: 220px;
+  background-color: #ffffcc;
+  border: 2px solid gray;
+  border-style: ridge;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.opzioni a {
+  text-decoration: none;
+  color: black;
+}
+
+#fighta, #pkmna {
+  padding: 4px 20px;
+}
+
+#baga, #runa {
+  padding: 4px 29px;
+}
+
+.opzioni a:hover {
+  border: red 2px solid;
+  border-style: inset;
+}
+
+.fightpkmn, .bagrun {
+  display: flex;
+}
+
+.bagrun {
+  margin-top: 11px;
+}
+
+.fight, .pkmn, .bag, .run {
+  width: 50%;
+  font-size: 22px;
+  text-align: center;
+}
