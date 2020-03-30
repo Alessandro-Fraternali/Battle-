@@ -93,7 +93,7 @@ margin-top: 10px;
   align-items: space-between;
 }
 
-.opzioni a, .opzionilotta a {
+.opzioni a, #opzionilotta a {
   text-decoration: none;
   color: black;
 }
@@ -106,9 +106,10 @@ margin-top: 10px;
   padding: 4px 29px;
 }
 
-.opzioni a:hover {
+.menu1:hover, .mossa:hover{
   border: red 2px solid;
   border-style: inset;
+  cursor: pointer;
 }
 
 .fightpkmn, .bagrun {
@@ -116,7 +117,7 @@ margin-top: 10px;
 }
 
 .bagrun {
-  margin-top: 11px;
+  margin-top: 5px;
 }
 
 .fight, .pkmn, .bag, .run {
@@ -127,7 +128,7 @@ margin-top: 10px;
 
 /* elementi a comparsa */
 /* mosse */
-.opzionilotta {
+#opzionilotta {
   height: 77px;
   width: 439px;
   background-color: #ffffcc;
@@ -137,6 +138,7 @@ margin-top: 10px;
   justify-content: center;
   align-items: space-between;
   margin: auto;
+  opacity: 0;
 }
 
 .mosse {
