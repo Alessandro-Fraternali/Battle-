@@ -4,6 +4,7 @@
   margin:0;
 }
 
+/* game screen */
 .container {
   margin: auto;
   width: 439px;
@@ -11,6 +12,7 @@
   background-image: url(../img/sfondo3.jpg);
 }
 
+/* statistiche e sprite */
 .statsprite {
   display: flex;
   justify-content: space-around;
@@ -27,6 +29,7 @@
   flex-direction: column;
 }
 
+/* nome salute livello */
 .nsl {
   display: flex;
   justify-content: space-around;
@@ -42,6 +45,7 @@
   justify-content: center;
 }
 
+/* scritta PS */
 .iconaps {
   color: yellow;
   height: 15px;
@@ -52,19 +56,29 @@
   text-align: center;
 }
 
+/* barra dei PS */
 .barraps {
   height: 15px;
   width: 110px;
   border: 1px solid black;
-  background-color: #00e64d;
+  background-color: rgb(23, 182, 34);
 }
 
+/* statistiche e sprite */
 .statspriteblastoise{
   padding-top: 16px;
 }
 
 .statblastoise {
 margin-top: 10px;
+}
+
+/* blastoiseshell */
+#blastoiseshell {
+  position: fixed;
+  top: 140px;
+  left: 510px;
+  display: none;
 }
 
 /* menù interattivo */
@@ -128,7 +142,15 @@ margin-top: 10px;
 
 /* elementi a comparsa */
 /* mosse */
+
+.containermosse {
+  display: none;
+}
+
 #opzionilotta {
+  position: fixed;
+  top: 186px;
+  left: 463px;
   height: 77px;
   width: 439px;
   background-color: #ffffcc;
@@ -137,46 +159,45 @@ margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: space-between;
-  margin: auto;
-  opacity: 0;
 }
 
 .mosse {
   width: 75%;
-  height: 100%
+  height: 100%;
   border: 2px solid gray;
   border-style: ridge;
   display: flex;
   font-size: 22px;
-  flex-direction: column;
   justify-content: center;
 }
 
-.mossesopra, .mossesotto {
+.mossesinistra, .mossedestra {
+  width: 50%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  text-align: center;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
-.mossa1, .mossa2, .mossa3, .mossa4 {
 
+.mossa1, .mossa2, .mossa3, .mossa4{
+  height: 100%;
 }
 
-.mossa1, .mossa3 {
-  margin-right: 45px;
-}
-
-.mossa1 {
-  margin-right: 85px;
-}
-
-.mossesotto {
-  margin-top: 5px;
-}
-
+/* info mosse e back */
 .infomosse {
   width: 25%;
-  height: 100%
+  height: 100%;
   border: 2px solid gray;
   border-style: ridge;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.infomosse>div {
+  height: 33%;
+  border: 1px solid black;
 }

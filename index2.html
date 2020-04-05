@@ -38,7 +38,8 @@
       <!-- blastoise -->
       <div class="statsprite statspriteblastoise">
         <div class="sprite">
-          <img src="img/blastoise1.png" alt="">
+          <img src="img/blastoise1.png" alt="" id="blastoise">
+          <img src="img/shell.png" alt="" id="blastoiseshell">
         </div>
         <!-- blocco stats -->
         <div class="stat statblastoise">
@@ -89,37 +90,40 @@
       </div>
     </div>
     <!-- elementi a comparsa -->
-    <div id="opzionilotta">
-      <div class="mosse">
-        <div class="mossesopra">
-          <div class="mossa1">
-            <div class="mossa">SURF</div>
+    <div class="containermosse">
+      <div id="opzionilotta">
+        <div class="mosse">
+          <div class="mossesinistra">
+            <div class="mossa1">
+              <div class="mossa">SURF</div>
+            </div>
+            <div class="mossa2">
+              <div class="mossa">EARTHQUAKE</div>
+            </div>
           </div>
-          <div class="mossa2">
-            <div class="mossa">EARTHQUAKE</div>
+          <div class="mossedestra">
+            <div class="mossa3">
+              <div class="mossa">BLIZZARD</div>
+            </div>
+            <div class="mossa4">
+              <div class="mossa">PROTECTION</div>
+            </div>
           </div>
         </div>
-        <div class="mossesotto">
-          <div class="mossa3">
-            <div class="mossa">BLIZZARD</div>
-          </div>
-          <div class="mossa4">
-            <div class="mossa">PROTECTION</div>
-          </div>
-        </div>
-      </div>
-      <div class="infomosse">
-        <div class="type">
+        <div class="infomosse">
+          <div class="type">
 
-        </div>
-        <div class="dmg">
+          </div>
+          <div class="dmg">
 
-        </div>
-        <div class="back">
-          <button type="button" name="button" id="back">indietro</button>
+          </div>
+          <div class="back">
+            <button type="button" name="button" id="back">Back</button>
+          </div>
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js" charset="utf-8"></script>
   </body>
   </html>
