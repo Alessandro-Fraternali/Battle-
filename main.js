@@ -42,6 +42,11 @@ $(document).ready(function(){
     function() {
       $("#blastoise").hide();
       $("#blastoiseshell").show();
+      var $left = $(".statblastoise").css('margin-left');
+         var $newval = (parseInt($left) + 80) + "px";
+         $(".statblastoise").css ({
+           'margin-left' : $newval
+         });
   }
   )
 
